@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Llamada Telefónica</title>
+    <link rel="stylesheet" href="../styles/estilos.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>COSTO DE LLAMADA</h1>
+        <label for="minutos">
+            Duración de la llamada (min):
+        </label>
+        <input type="text" id="minutos"><br>
+        <label for="costo">
+            Costo por minuto:
+        </label>
+        <input type="text" id="costo"><br>
+        <button onclick="calcularLlamada()">
+            Calcular
+        </button>
+        <p id="resultado"></p>
+        <div class="linea-inicio">
+            <span></span>
+            <a href="../index.html">🏠</a>
+            <span></span>
+        </div>
+
+    </div>
+
+    <script src="../scripts/funciones11.js"></script>
+
+</body>
+</html>
